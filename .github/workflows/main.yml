@@ -61,4 +61,3 @@ jobs:
         with:
           name: cypress-videos
           path: cypress/videos
-          echo test, and deploy your project.
