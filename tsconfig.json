@@ -1,0 +1,26 @@
+{
+    "include": ["./cypress/**/*.ts"],
+    "compilerOptions": {
+        "baseUrl": ".",
+        "module": "commonjs",
+        "target": "ES2015",
+        "noImplicitAny": false,
+        "declaration": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "outDir": "build",
+        "watch": false,
+        "lib": ["es2018", "dom"],
+        "moduleResolution": "node",
+        "noUnusedLocals": true,
+        "strict": true,
+        "types": [
+            "cypress",
+            "@testing-library/cypress",
+            "./cypress/support",
+            "node"
+        ],
+        "inlineSourceMap": false
+    }
+}
