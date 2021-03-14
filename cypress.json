@@ -2,5 +2,6 @@
     "baseUrl": "http://localhost:8080",
     "integrationFolder": "cypress/e2e",
     "experimentalFetchPolyfill": true,
-    "chromeWebSecurity": false
+    "chromeWebSecurity": false,
+    "projectId": "jgg1rz"
 }
